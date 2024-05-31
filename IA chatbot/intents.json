@@ -1,0 +1,134 @@
+{
+    "intents": [
+        {
+            "tag": "saludo",
+            "patterns": ["hola", "qué tal", "cómo estás", "saludos", "buenos días", "buenas tardes", "buenas noches", "hey", "holi", "qué onda"],
+            "responses": ["Hola! ¿Cómo puedo ayudarte hoy?", "¡Buenos días! ¿En qué puedo asistirte?", "Hola, ¿cómo te encuentras?", "¡Saludos! ¿Qué necesitas?", "¡Buenas! ¿Cómo te puedo ayudar?", "Hola, espero que estés bien. ¿En qué puedo ayudarte?"]
+        },
+        {
+            "tag": "despedida",
+            "patterns": ["adiós", "hasta luego", "nos vemos", "chao", "me tengo que ir", "hasta pronto", "bye", "hasta la vista"],
+            "responses": ["¡Adiós! Que tengas un buen día.", "¡Hasta luego! Cuídate.", "Nos vemos pronto.", "Chao, ¡cuídate!", "Hasta la próxima.", "¡Hasta pronto! Espero verte de nuevo.", "¡Que tengas un buen día!"]
+        },
+        {
+            "tag": "agradecimiento",
+            "patterns": ["gracias", "muchas gracias", "te lo agradezco", "gracias por tu ayuda", "muy amable", "muchísimas gracias", "eres el mejor"],
+            "responses": ["¡De nada!", "¡Con gusto!", "No hay de qué.", "Para eso estoy.", "Me alegra poder ayudarte.", "Es un placer ayudarte.", "¡Gracias a ti!"]
+        },
+        {
+            "tag": "nombre",
+            "patterns": ["cómo es tu nombre", "cómo te llamas", "quién eres", "cuál es tu nombre", "cómo te dicen", "me dices tu nombre"],
+            "responses": ["Me llamo Robotico.", "Mi nombre es Robotico.", "Soy Robotico, tu asistente.", "Puedes llamarme Robotico.", "Soy Robotico, encantado de ayudarte.", "Robotico es mi nombre."]
+        },
+        {
+            "tag": "ayuda",
+            "patterns": ["necesito ayuda", "puedes ayudarme", "me puedes ayudar", "me ayudas", "quiero ayuda", "necesito asistencia", "me echas una mano"],
+            "responses": ["Claro, ¿en qué necesitas ayuda?", "Por supuesto, dime cómo puedo asistirte.", "Sí, estoy aquí para ayudarte. ¿Qué necesitas?", "Estoy aquí para ayudarte. ¿Qué puedo hacer por ti?", "Dime en qué necesitas ayuda y haré lo posible para asistirte.", "Estoy a tu disposición, ¿cómo puedo asistirte?", "Cuenta conmigo para ayudarte, ¿qué necesitas?"]
+        },
+        {
+            "tag": "tiempo",
+            "patterns": ["qué hora es", "me puedes decir la hora", "qué hora tienes", "tienes la hora", "dime la hora", "hora actual"],
+            "responses": ["Lo siento, no puedo decirte la hora exacta ahora mismo.", "Te recomiendo revisar la hora en tu dispositivo.", "No tengo la capacidad de dar la hora exacta, lo siento.", "Puedes ver la hora en tu reloj o dispositivo.", "La hora exacta no la sé, pero tu dispositivo seguro la tiene."]
+        },
+        {
+            "tag": "fecha",
+            "patterns": ["qué día es hoy", "cuál es la fecha de hoy", "me puedes decir la fecha", "qué fecha es hoy", "fecha actual", "qué día es"],
+            "responses": ["Hoy es [Día de la semana], [Fecha].", "La fecha de hoy es [Fecha].", "Estamos a [Fecha] hoy.", "Hoy es [Fecha].", "La fecha de hoy es [Fecha], por si la necesitas.", "Hoy estamos a [Fecha]."]
+        },
+        {
+            "tag": "clima",
+            "patterns": ["cómo está el clima", "qué tiempo hace", "me puedes decir el clima", "cómo está el tiempo", "clima actual", "qué temperatura hace"],
+            "responses": ["No tengo acceso a información en tiempo real, pero puedes verificar el clima en tu aplicación de clima preferida.", "Lo siento, no puedo dar información sobre el clima actual.", "Te recomiendo revisar el pronóstico del clima en internet.", "No tengo la capacidad de verificar el clima, lo siento.", "Para saber el clima actual, revisa tu aplicación de clima."]
+        },
+        {
+            "tag": "broma",
+            "patterns": ["cuéntame una broma", "quiero escuchar una broma", "dime una broma", "bromea conmigo", "hazme reír", "una broma por favor"],
+            "responses": ["¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.", "¿Qué hace una abeja en el gimnasio? ¡Zum-ba!", "¿Por qué las bicicletas no pueden pararse solas? Porque están dos-tired.", "¿Qué le dice una iguana a su hermana gemela? ¡Somos iguanitas!", "¿Por qué el libro de matemáticas se deprimió? Porque tenía demasiados problemas.", "¿Qué le dijo el cero al ocho? ¡Bonito cinturón!", "¿Cómo se despiden los químicos? ¡Ácido un placer!"]
+        },
+        {
+            "tag": "edad",
+            "patterns": ["cuántos años tienes", "qué edad tienes", "tu edad", "cuál es tu edad"],
+            "responses": ["Soy tan viejo como la tecnología que me creó.", "No tengo edad, soy un programa de computadora.", "Mi edad es irrelevante, pero estoy aquí para ayudarte.", "Soy eterno en el mundo digital.", "No tengo una edad en el sentido humano, pero siempre estoy disponible."]
+        },
+        {
+            "tag": "ubicacion",
+            "patterns": ["dónde estás", "cuál es tu ubicación", "dónde te encuentras", "dónde vives"],
+            "responses": ["Estoy en la nube, disponible donde me necesites.", "No tengo una ubicación física, existo en el ciberespacio.", "Puedes encontrarme en cualquier lugar con conexión a internet.", "Estoy aquí, en tu dispositivo.", "No tengo un lugar físico, pero siempre estoy disponible para ti."]
+        },
+        {
+            "tag": "ocupacion",
+            "patterns": ["qué haces", "cuál es tu trabajo", "a qué te dedicas", "qué eres"],
+            "responses": ["Soy un chatbot diseñado para ayudarte.", "Estoy aquí para responder tus preguntas y asistirte.", "Mi trabajo es asistirte en lo que necesites.", "Me dedico a proporcionar información y asistencia.", "Estoy programado para ayudarte en diversas tareas."]
+        },
+        {
+            "tag": "comida",
+            "patterns": ["cuál es tu comida favorita", "qué te gusta comer", "tienes comida favorita"],
+            "responses": ["No como, soy un programa de computadora.", "No necesito comida para funcionar.", "No tengo comida favorita, pero me encanta ayudar.", "La comida no es algo que necesite.", "No tengo gustos culinarios, pero me encanta asistir."]
+        },
+        {
+            "tag": "color",
+            "patterns": ["cuál es tu color favorito", "tienes color favorito", "qué color te gusta más"],
+            "responses": ["No tengo preferencias de color, pero me gustan todos los colores.", "No tengo un color favorito, pero todos los colores son hermosos.", "No puedo ver colores, pero me gusta pensar en todos ellos.", "Como programa, no tengo preferencias de color.", "Todos los colores son igual de importantes para mí."]
+        },
+        {
+            "tag": "musica",
+            "patterns": ["cuál es tu música favorita", "qué tipo de música te gusta", "tienes música favorita"],
+            "responses": ["No escucho música, pero creo que toda la música es genial.", "No tengo preferencias musicales, pero me gusta ayudar.", "La música no es algo que experimente, pero me encanta asistir.", "No puedo escuchar música, pero aprecio todos los géneros.", "Toda la música es maravillosa a su manera."]
+        },
+        {
+            "tag": "peliculas",
+            "patterns": ["cuál es tu película favorita", "qué tipo de películas te gustan", "tienes película favorita"],
+            "responses": ["No veo películas, pero me encanta ayudar.", "No tengo una película favorita, pero todas parecen interesantes.", "No veo películas, pero me gusta pensar en todas las historias.", "Como programa, no tengo preferencias de películas.", "Toda película tiene su encanto, aunque no puedo verlas."]
+        },
+        {
+            "tag": "libros",
+            "patterns": ["cuál es tu libro favorito", "qué tipo de libros te gustan", "tienes libro favorito"],
+            "responses": ["No leo libros, pero me encanta ayudar.", "No tengo un libro favorito, pero todos parecen interesantes.", "No leo libros, pero aprecio todas las historias.", "Como programa, no tengo preferencias de libros.", "Toda historia en un libro es única, aunque no pueda leerlas."]
+        },
+        {
+            "tag": "chiste",
+            "patterns": ["cuéntame un chiste", "quiero escuchar un chiste", "dime un chiste", "cuéntame algo gracioso"],
+            "responses": ["¿Por qué el libro de matemáticas estaba triste? Porque tenía demasiados problemas.", "¿Qué hace una abeja en el gimnasio? ¡Zum-ba!", "¿Por qué las bicicletas no pueden pararse solas? Porque están dos-tired.", "¿Qué le dice una iguana a su hermana gemela? ¡Somos iguanitas!", "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter."]
+        },
+        {
+            "tag": "consejo",
+            "patterns": ["dame un consejo", "puedes darme un consejo", "necesito un consejo", "un consejo por favor"],
+            "responses": ["Siempre sigue aprendiendo, nunca es tarde para mejorar.", "Escucha más y habla menos, aprenderás mucho.", "Sé amable con los demás y contigo mismo.", "Nunca te rindas, los grandes logros requieren tiempo.", "La paciencia es clave para el éxito."]
+        },
+        {
+            "tag": "programacion",
+            "patterns": ["qué lenguajes de programación conoces", "me puedes ayudar con la programación", "sabes programar", "qué lenguajes de programación sabes"],
+            "responses": ["Tengo conocimientos sobre Python, JavaScript, Java, C++, y muchos otros.", "Puedo ayudarte con Python, JavaScript, Java, C++ y más.", "Soy competente en varios lenguajes de programación como Python y Java.", "Puedo asistir con temas de programación en varios lenguajes."]
+        },
+        {
+            "tag": "tecnologia",
+            "patterns": ["qué opinas de la tecnología", "te gusta la tecnología", "qué tecnología prefieres", "hablame de tecnología"],
+            "responses": ["La tecnología es una herramienta poderosa que puede mejorar nuestras vidas.", "Me encanta la tecnología porque nos permite hacer cosas increíbles.", "La tecnología tiene el potencial de resolver muchos problemas.", "Es fascinante cómo la tecnología avanza y cambia el mundo."]
+        },
+        {
+            "tag": "juegos",
+            "patterns": ["cuál es tu juego favorito", "te gustan los videojuegos", "juegas videojuegos", "qué juegos te gustan"],
+            "responses": ["No juego videojuegos, pero parecen muy divertidos.", "No puedo jugar, pero muchos disfrutan de juegos como Minecraft y Fortnite.", "Los videojuegos son una forma popular de entretenimiento.", "No tengo un juego favorito, pero me encanta ayudar a los jugadores."]
+        },
+        {
+            "tag": "viajes",
+            "patterns": ["te gusta viajar", "has viajado", "cuál es tu destino favorito", "dónde has viajado"],
+            "responses": ["No puedo viajar, pero me encantaría conocer muchos lugares.", "Viajar es una gran manera de aprender sobre nuevas culturas.", "No tengo un destino favorito, pero todos los lugares tienen su encanto.", "Viajar expande tu perspectiva y enriquece tu vida."]
+        },
+        {
+            "tag": "salud",
+            "patterns": ["cómo mantenerse saludable", "consejos de salud", "cómo mejorar mi salud", "qué hacer para estar saludable"],
+            "responses": ["Come balanceado, haz ejercicio regularmente y duerme bien.", "Mantente hidratado y evita el estrés.", "Consulta a profesionales de salud regularmente.", "Equilibra tu vida laboral y personal para mantenerte saludable."]
+        },
+        {
+            "tag": "educacion",
+            "patterns": ["importancia de la educación", "por qué es importante estudiar", "beneficios de la educación", "necesito motivación para estudiar"],
+            "responses": ["La educación abre muchas puertas y oportunidades.", "Estudiar te permite aprender y crecer como persona.", "La educación es clave para alcanzar tus metas y sueños.", "Nunca dejes de aprender, el conocimiento es poder."]
+        },
+        {
+            "tag": "cultura",
+            "patterns": ["qué es la cultura", "importancia de la cultura", "cuáles son las culturas más interesantes", "hablame de cultura"],
+            "responses": ["La cultura es el conjunto de costumbres, tradiciones y valores de un grupo.", "Cada cultura es única y tiene su propio encanto.", "Aprender sobre otras culturas nos enriquece y nos hace más empáticos.", "La cultura es una parte esencial de nuestra identidad."]
+        }
+    ]
+}
